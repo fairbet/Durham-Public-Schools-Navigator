@@ -4,7 +4,7 @@ function mainJSFunction(inputForm){
     address = inputForm.elements[0].value;
     var schoolLevel = inputForm.elements[1].value;
     var minGrade = inputForm.elements[2].value;
-    document.getElementById("outputDiv").innerHTML = "Showing Top 5 Closest " + schoolLevel + 
+    document.getElementById("outputDiv").innerHTML = "Showing Top 3 Closest " + schoolLevel + 
         " Schools to " + address + " with at Least a(n) " + minGrade + " Ranking";
     FindLatLong(address, function(data) { //add of this inside callback function!
     var topNIndices = computeSchool(data.Latitude, data.Longitude, schoolLevel, minGrade);
