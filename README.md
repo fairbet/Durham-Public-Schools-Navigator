@@ -3,7 +3,7 @@ Durham Public Schools Navigator
 Durham Public Schools Navigator is a tool developed for Durham parents to find the best-fitting school for their children's future!
 
 #### Screenshot
-![Screenshot](https://github.com/fairbet/Durham-Public-Schools-Navigator/blob/master/HackDukeScreenshot2.PNG "Screen shot")
+![Screenshot](https://github.com/fairbet/Durham-Public-Schools-Navigator/blob/master/HackDukeScreenshot.PNG "Google Maps Operation Demo")
 
 ## HackDuke 2016: Education Track
 Finding a school for future generations is often a challenging yet critical process. A simple google search might return thousands of  unorganized or even irrelevant results, making the process even more time-consuming. We aim at streamlining the process by presenting open data published by NC Department of Public Instruction in an intuitive and interactive way with the power of Google Maps.
