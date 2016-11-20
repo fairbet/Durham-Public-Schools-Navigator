@@ -19,6 +19,7 @@ Finding a school for future generations is often a challenging yet critical proc
 * HTML - interactive webpage
 * CSS - styling the webpage
 * Java - parse and analyze collected data
+
 ### APIS
 * Google Maps JavaScript API
 * Google Maps Geocoding API
