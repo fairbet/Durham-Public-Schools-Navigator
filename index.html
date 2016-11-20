@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Durham Public Schools Navigator</title>
+        <script src="data.js"></script>
+        <link href="DPSN.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="siteTitle" style="text-align:center">The Durham Public Schools Navigator</div>
+        <p style="text-align:center">Hack Duke 2016</p>
+        <p style="text-align:center">By: Fred Xu, Matthew Barbano, and Ashka Stephens</p>
+        <p style="text-align:center"><b>This project assists Durham parents searching to find the optimal school for their children. It is based on grade rankings of Durham schools from the datasets <a href ="https://opendurham.nc.gov/explore/dataset/north-carolina-school-performance-data/information/">North Carolina School Performance Data</a> and <a href="https://opendurham.nc.gov/explore/dataset/public-schools/">Durham Public Schools Locations</a>. Enter your address, the type of school (elementary, middle, or high), and minimum grade ranking (A, B, C, D, or F) that you would like to display. Click Show Top 3 Schools, and the map will do so. Make sure you enter a valid address and zoom out if no schools appear in your initial map view. Also, make sure your search criteria is not too restrictive, since the dataset we currently have is small (plans to enlarge soon). </b></p><br>
+        <div id="inputDiv" style="text-align:center"><form id="formId">
+            Your Address: <input type="text"><br><br>
+            School Level: <select name="schoolLevels">
+                <option value="Elementary">Elementary School</option>
+                <option value="Middle">Middle School</option>
+                <option value="High">High School</option>
+            </select><br><br>
+            Minimum Grade: <select name="schoolLevels">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="F">F</option>
+            </select><br><br>
+            <input type="button" onclick="mainJSFunction(this.form)" value="Show Top 3 Schools">
+            </form></div>
+        <div id="outputDiv" style="text-align:center"></div><br>
+        <div id="map" style="width:600px; height:600px;margin-left:auto;margin-right:auto"></div><br>
+        <script src="map.js" type="text/javascript"></script>
+           <!--Loading the map asynchronously-->
+       <script async defer src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAN5rc-77s_RwbRCDMEL5GPvQiCdy68PJw&v=3&callback=initMap">
+       </script>
+    </body>
+</html>
