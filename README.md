@@ -20,7 +20,7 @@ Finding a school for future generations is often a challenging yet critical proc
 * CSS - styling the webpage
 * Java - parse and analyze collected data
 
-### APIS
+### APIs
 * Google Maps JavaScript API
 * Google Maps Geocoding API
 * Apache POI
